@@ -1,11 +1,14 @@
 import Header from "./components/Header";
-import "./default.scss"
+import "./default.scss";
+import HomePage from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Hello Veerbal</h1>
+      <div className="main">
+        <HomePage />
+      </div>
     </div>
   );
 }
